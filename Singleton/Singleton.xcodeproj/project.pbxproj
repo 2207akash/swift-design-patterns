@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		752E7DB22B3EA3AE0030D80C /* Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Singleton.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		752E7DB32B3FF0000030D80C /* SingletonFail.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingletonFail.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		752E7DB42B3FF0F50030D80C /* SingletonWithLock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingletonWithLock.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		752E7DAB2B3EA39D0030D80C = {
+			isa = PBXGroup;
+			children = (
+				752E7DB32B3FF0000030D80C /* SingletonFail.playground */,
+				752E7DB42B3FF0F50030D80C /* SingletonWithLock.playground */,
+				752E7DB22B3EA3AE0030D80C /* Singleton.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		752E7DAC2B3EA39D0030D80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+			};
+			buildConfigurationList = 752E7DAF2B3EA39D0030D80C /* Build configuration list for PBXProject "Singleton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 752E7DAB2B3EA39D0030D80C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		752E7DB02B3EA39D0030D80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		752E7DB12B3EA39D0030D80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		752E7DAF2B3EA39D0030D80C /* Build configuration list for PBXProject "Singleton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752E7DB02B3EA39D0030D80C /* Debug */,
+				752E7DB12B3EA39D0030D80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 752E7DAC2B3EA39D0030D80C /* Project object */;
+}
